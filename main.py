@@ -1,16 +1,16 @@
-# This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+a = int(input('Entre com o primeiro valor:'))
+b = int(input('Entre com o segundo valor:'))
 
+soma = a + b
+subtracao = a - b
+divisao = a / b
+resto = a % b
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print('Soma: {soma}'
+      '\n Subtracao:{subtracao} '
+      '\n Divisão: {divisao}'
+      '\n Resto: {resto}'.format(soma=soma,
+                                  subtracao=subtracao,
+                                  divisao=divisao,
+                                  resto=resto))
